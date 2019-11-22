@@ -1,1 +1,4 @@
-# CSCI102-Week-12B
+# Method used: Incremental build software development model
+# Louis Miller
+# CSCI102 - Section A
+# Week 12 - Part A
