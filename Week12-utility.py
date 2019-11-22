@@ -21,4 +21,10 @@ def FindWordCount(file, word):
         if l[i] == word: num += 1
     return num
 
-    
+def ScoreFinder(l1, l2, string):
+    if string in l1:
+        n = 0
+        while l1[n].lower() != string.lower():
+            n += 1
+        PrintOutput(f'Jill got a score of {l2[n]}')
+    else: PrintOutput('player not found')
