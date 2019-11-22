@@ -11,4 +11,14 @@ def UpdateString(old, rep, loc):
     for i in range(len(old)):
         if i == loc: new += rep
         else: new += old[i]
-    return new
+    PrintOutput(new)
+
+def FindWordCount(file, word):
+    num = 0
+    l = file.readlines()
+    for i in range(len(l)): l[i].replace('/n', '')
+    for i in range(len(l)):
+        if l[i] == word: num += 1
+    return num
+
+    
