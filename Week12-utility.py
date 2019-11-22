@@ -31,4 +31,11 @@ def ScoreFinder(l1, l2, string):
 
 def Union(l1, l2): return (l1 + l2)
 
+def Intersection(l1, l2):
+    l = []
+    for i in range(len(l1)):
+        if l1[i] in l2:
+            l.append(l1[i])
+    return l
+
 
