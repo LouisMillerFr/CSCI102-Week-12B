@@ -28,3 +28,7 @@ def ScoreFinder(l1, l2, string):
             n += 1
         PrintOutput(f'Jill got a score of {l2[n]}')
     else: PrintOutput('player not found')
+
+def Union(l1, l2): return (l1 + l2)
+
+
